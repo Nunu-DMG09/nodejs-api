@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/Nunu-DMG09/nodejs-api#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
