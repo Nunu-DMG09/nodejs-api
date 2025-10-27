@@ -5,7 +5,7 @@ const app = express();
 
 // Definiendo una ruta para el endpoint raíz
 app.get('/', (req, res) => {
-    res.send('¡Hola, mundo!');
+    res.send('Bienvenido a mi primera API con Node.js y Express!');
 });
 
 // Iniciando el servidor en el puerto 3000
