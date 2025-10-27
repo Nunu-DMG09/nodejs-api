@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "Mi primera API con Nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nunu-DMG09/nodejs-api.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "David Mesta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nunu-DMG09/nodejs-api/issues"
+  },
+  "homepage": "https://github.com/Nunu-DMG09/nodejs-api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
