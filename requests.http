@@ -1,0 +1,14 @@
+get http://localhost:3000/books HTTP/1.1
+
+###
+get http://localhost:3000/books/1 HTTP/1.1
+
+###
+POST http://localhost:3000/books/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Retrato de un Naúfrago",
+    "author": "Gabriel Garcia Marquez",
+    "year": 1982
+}
